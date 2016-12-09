@@ -1,0 +1,88 @@
+body{
+	font-size:16px;
+	color:#333;
+	background: #fff;
+	font-family: 'Noto Sans', sans-serif;
+    background: -webkit-linear-gradient(#66bb6a, #81c784, #4caf50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#66bb6a, #81c784, #4caf50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #66bb6a, #81c784, #4caf50); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #66bb6a, #81c784, #4caf50); /* Standard syntax (must be last) */
+}
+p{
+	font-weight: 200;
+}
+h1{
+	font-weight: 300;
+}
+h2{
+	font-weight: 300;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default{
+	background-color: #006064;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #0097a7;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #0097a7;
+}
+
+.tileBg{
+	margin-top: 20px;
+}
+
+section{
+	background-color: #E8F5E9;
+	border: 1px solid #1b5e20;
+	padding: 15px;
+	box-shadow: 3px 5px 2px #388e3c;
+	border-radius: 8px;
+}
+*{
+	margin: 0 0;
+
+}
+
+/*Medium devices only */
+@media (min-width: 992px) and (max-width: 1199px){
+	div.img{
+		background: url('../images/greentee_800_327.png') no-repeat;
+		width: 800px;
+		height: 327px;
+		margin:0 auto 0;
+		overflow: hidden;
+	}
+}
+
+/*Small devices only */
+@media (min-width: 768px) and (max-width: 991px){
+	div.img{
+		background: url('../images/greentee_800_327.png') no-repeat;
+		/* width: 750px;*/
+		height: 277px;
+		margin:0 auto 0;
+		overflow: hidden;
+	}
+}
+
+/* extra small devices only */
+@media(max-width: 767px){
+	div.img{
+		background: url('../images/greentee_400_164.png') no-repeat;
+		width: 400px;
+		height: 164px;
+		margin:0 auto 0;
+		overflow: hidden;
+	}
+}
